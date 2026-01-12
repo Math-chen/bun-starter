@@ -16,7 +16,12 @@
 点击 GitHub 上的 "Use this template" 按钮，或者：
 
 ```bash
-gh repo create my-project --template Math-chen/bun-starter
+# 创建公开仓库
+gh repo create my-project --template Math-chen/bun-starter --public
+
+# 或创建私有仓库
+gh repo create my-project --template Math-chen/bun-starter --private
+
 cd my-project
 bun install
 ```
